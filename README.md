@@ -5,6 +5,10 @@
   - torch>=1.4.0
   - torchvision>=0.5.0
 ## How to use
-### 1. train
+### 1. Train
 
-python cifar-demo.py --batch_size 4 --model UNet
+python cifar-demo.py  --model UNet
+
+### 2. Test
+
+python test.py  --model UNet
