@@ -7,8 +7,8 @@
 ## How to use
 ### 1. Train
 
-python cifar-demo.py  --model UNet
+python cifar-demo.py  --model UNet  --args.dataset cifar10(cifar100)
 
 ### 2. Test
 
-python test.py  --model UNet
+python test.py  --model UNet  --args.dataset cifar10(cifar100)
