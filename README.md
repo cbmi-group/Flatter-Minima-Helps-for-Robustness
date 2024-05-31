@@ -7,8 +7,8 @@
 ## How to use
 ### 1. Train
 
-python cifar_demo.py  --model wrn  --args.dataset cifar10(cifar100)
+python cifar_demo.py  --model wrn  --args.dataset cifar100(cifar10)
 
 ### 2. Test
 
-python test.py  --model wrn  --args.dataset cifar10(cifar100)  --load_pth checkpoints/wrn/model_best.pth.tar 
+python test.py  --model wrn  --args.dataset cifar100(cifar10)  --load_pth checkpoints/wrn/model_best.pth.tar 
