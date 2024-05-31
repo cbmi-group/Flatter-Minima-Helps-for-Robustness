@@ -20,12 +20,11 @@ import torchvision.models as models
 # import pyramidnet as PYRM
 import torchvision
 from dataloader import *
-from cutmix.models.vit import *
-from cutmix.models.vgg import *
-from cutmix.models.densenet import *
+from models.vit import *
+from models.vgg import *
+from models.densenet import *
 import warnings
-from cutmix.models.wideresnet import WideResNet
-# from cutmix.models.wide_resnet import WideResNet
+from models.wideresnet import WideResNet
 
 warnings.filterwarnings("ignore")
 
